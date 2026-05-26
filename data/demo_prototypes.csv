@@ -1,0 +1,5 @@
+condition_name,prototype,type
+dissatisfaction,公民对政府服务或公共问题表达不满、愤怒、失望或挫败的情绪，强调长期问题未被解决或部门不作为。,condition
+policy_demand,公民请求政府对某项具体政策进行说明、调整、澄清申请流程或公开实施细则。,condition
+coproduction_request,公民主动表示愿意配合政府开展工作，提供志愿服务、组织协作或承担部分公共事务。,condition
+responsiveness,政府提供了清楚、具体、尊重公民的回应或解决方案。,outcome

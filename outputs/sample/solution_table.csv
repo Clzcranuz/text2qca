@@ -1,0 +1,3 @@
+term,consistency,raw_coverage,unique_coverage
+~dissatisfaction * ~policy_demand * coproduction_request,0.975,0.454,0.432
+~dissatisfaction * policy_demand * ~coproduction_request,0.994,0.403,0.381

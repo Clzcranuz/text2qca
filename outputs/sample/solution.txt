@@ -1,0 +1,15 @@
+=== text2qca — parsimonious solution ===
+
+Conditions: ['dissatisfaction', 'policy_demand', 'coproduction_request']
+Consistency cutoff: 0.8
+Frequency cutoff: 1
+
+Solution terms:
+  - ~dissatisfaction * ~policy_demand * coproduction_request  →  outcome
+  - ~dissatisfaction * policy_demand * ~coproduction_request  →  outcome
+
+Solution metrics:
+  overall_consistency: 0.986
+  overall_coverage: 0.835
+  n_prime_implicants: 2
+  n_solution_terms: 2

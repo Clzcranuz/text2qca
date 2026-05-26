@@ -1,0 +1,26 @@
+{
+  "scoring_method": "keyword (deterministic fallback)",
+  "calibration": {
+    "method": "direct",
+    "anchors": [
+      0.3,
+      0.5,
+      0.7
+    ]
+  },
+  "qca": {
+    "consistency_cutoff": 0.8,
+    "frequency_cutoff": 1
+  },
+  "n_cases": 40,
+  "solution_terms": [
+    "~dissatisfaction * ~policy_demand * coproduction_request",
+    "~dissatisfaction * policy_demand * ~coproduction_request"
+  ],
+  "solution_metrics": {
+    "overall_consistency": 0.986,
+    "overall_coverage": 0.835,
+    "n_prime_implicants": 2,
+    "n_solution_terms": 2
+  }
+}
