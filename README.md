@@ -23,6 +23,8 @@ intermediate artifact is visible in the UI, can be downloaded as CSV, and is
 shipped under `outputs/sample/` so reviewers can verify reproducibility before
 running the tool themselves.
 
+For methodological details, assumptions, limitations, and interpretation guidance, see [`docs/technical_note.md`](docs/technical_note.md).
+
 | Step | What happens | Output |
 |------|--------------|--------|
 | 1 | Upload citizen-text + prototype CSVs | preview tables |
