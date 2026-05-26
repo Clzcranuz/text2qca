@@ -429,6 +429,6 @@ with tabs[6]:
 st.divider()
 st.caption(
     "Built for the *Digital Governance in an Age of AI and Big Data* "
-    "research project. Code: github.com/<your-handle>/text2qca · "
+    "research project. Code: github.com/Clzcranuz/text2qca · "
     "MIT licensed."
 )
