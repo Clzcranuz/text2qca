@@ -37,19 +37,14 @@ For methodological details, assumptions, limitations, and interpretation guidanc
 
 ## Live demo
 
-The same `app.py` is deployed to both platforms — pick whichever loads faster
-for you:
+The app is deployed on Streamlit Community Cloud:
 
-- 🤗 **HuggingFace Spaces** — <https://huggingface.co/spaces/your-handle/text2qca>
-- 🎈 **Streamlit Community Cloud** — <https://text2qca.streamlit.app>
-
-*(Both links are placeholders. After cloning, follow the **Deployment** section
-below to create your own.)*
+- 🎈 **Live demo** — <https://text2qca-fu2eb8k6zqcmkwewnabxc9.streamlit.app/>
 
 ## Quick start — local
 
 ```bash
-git clone https://github.com/your-handle/text2qca
+git clone https://github.com/Clzcranuz/text2qca
 cd text2qca
 pip install -r requirements.txt
 streamlit run app.py
@@ -166,6 +161,6 @@ If you find the tool useful in your research please cite it as:
   author = {Liu, Xuanchen},
   title  = {text2qca: Prototype-driven text-to-QCA toolchain for citizen-government communication research},
   year   = {2026},
-  url    = {https://github.com/your-handle/text2qca}
+  url    = {https://github.com/Clzcranuz/text2qca}
 }
 ```
