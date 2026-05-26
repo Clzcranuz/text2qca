@@ -74,15 +74,15 @@ with st.sidebar:
     )
     st.caption("Calibration anchors for direct fuzzy-set calibration.")
 
-full_out = st.slider("Full-out anchor", 0.0, 1.0, 0.30, step=0.01)
-cross = st.slider("Crossover anchor", 0.0, 1.0, 0.50, step=0.01)
-full_in = st.slider("Full-in anchor", 0.0, 1.0, 0.70, step=0.01)
+    full_out = st.slider("Full-out anchor", 0.0, 1.0, 0.30, step=0.01)
+    cross = st.slider("Crossover anchor", 0.0, 1.0, 0.50, step=0.01)
+    full_in = st.slider("Full-in anchor", 0.0, 1.0, 0.70, step=0.01)
 
-if not (full_out < cross < full_in):
-    st.error("Please set anchors in ascending order: full-out < crossover < full-in.")
-    st.stop()
+    if not (full_out < cross < full_in):
+        st.error("Please set anchors in ascending order: full-out < crossover < full-in.")
+        st.stop()
 
-cutoff_direct = (full_out, cross, full_in)
+    cutoff_direct = (full_out, cross, full_in)
     cutoff_crisp = st.slider("Crisp cutoff (if `threshold`)", 0.0, 1.0, 0.50, step=0.01)
     st.divider()
     st.subheader("4 · QCA")
