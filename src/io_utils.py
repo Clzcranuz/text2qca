@@ -59,7 +59,8 @@ def _read_csv(file_or_path) -> pd.DataFrame:
 
 def df_to_csv_bytes(df: pd.DataFrame, index: bool = True) -> bytes:
     buf = io.StringIO()
-    df.to_csv(buf, index=index)
+    index_label = df.index.name if df.index.name is not None else "case_id"
+    df.to_csv(buf, index=index, index_label=index_label)
     return buf.getvalue().encode("utf-8-sig")
 
 
