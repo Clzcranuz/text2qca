@@ -112,14 +112,6 @@ or already shipped under `outputs/sample/`:
 3. **New app** → pick the repo, branch `main`, **main file path** `app.py`.
 4. Done. The app builds itself from `requirements.txt`.
 
-### HuggingFace Spaces (≈ 5 minutes)
-
-1. Create a new Space (<https://huggingface.co/new-space>), SDK = **Streamlit**.
-2. Clone the Space, copy this repository's files in (the YAML frontmatter at
-   the top of this README is already in HF Spaces format), `git push`.
-3. The Space builds from `requirements.txt`. The first build downloads the
-   sentence-transformer model (~95 MB) into HF's persistent cache.
-
 ## Algorithmic notes
 
 | Step | Reference |
